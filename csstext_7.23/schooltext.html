@@ -4,13 +4,30 @@
         <meta charset="utf-8">
         <title>w3schoolcss练习</title>
         <style>
-            body{ background-color: yellow; }
-            h1{background-color: blue; }
-            h2{background-color: blanchedalmond }
-            p{background-color: rgb(250,0,255)}
+           /* body{ background-color: yellow; }*/
+            h1{
+                background-color: blue;
+                letter-spacing:20px;
+                text-transform:uppercase;
+            }
+            h2{
+                background-color: blanchedalmond ;
+                text-transform:lowercase;
+            }
+            h3{
+                text-transform:capitalize;
+            }
+           /* p{background-color: rgb(250,0,255)}*/
             p.no2{
                 background-color: gray;
                 padding: 100px;
+            }
+            div#outher{
+                width:500px;
+                height: 100px;
+            }
+            div#inther{
+                text-indent:10%;
             }
         </style>
     </head>
@@ -19,5 +36,13 @@
     <h2>标题2</h2>
     <p>段落</p>
     <p class="no2">1111111段落2</p>
+    <div id="outher"></div>
+    <div id="inther">
+        some text. some text. some text.
+        <p>this is a paragragh.</p>
+    </div>
+    <h1>let ter spac ing</h1>
+    <h2> lowercaseAND LOWERCASE</h2>
+    <H3>capitalize首字母大写</H3>
 </body>
 </html>

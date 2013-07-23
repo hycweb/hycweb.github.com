@@ -28,12 +28,15 @@ css属性
 3.设置文本布局
         word-spacing设置英文单词之间的距离，单位可以为in（英寸）、cm（厘米）、mm（毫米）
     pt（点）、px（像素）。
+        letter-spacing：与word-spacing类似只不过他分割的是字母之间的分割。
         line-height用来设置段落行与行之间的距离，可以用上面的方法表示，也可用无单位的字
     号表示，还可以用百分数表示。
 4.文本对齐（text-align）
     left:左对齐
     right:右对齐
     center：居中对齐
+        (center与<center>元素的对比都有居中的意思但是元素center不仅影响文本还会把整个元素居中
+        text-algin不会控制元素对齐，只是影响其中的内部内容。元素本省不会从一端移动到令一端只是文本受到影响)
     justify：两端对齐
 5.文本首行缩进（text-indent）
     设置一个段落首行文字缩进的距离，其值为一个长度或百分比。若为百分数，表示占上级元素宽度的百分比
@@ -46,3 +49,9 @@ css属性
     1.border-color：边框颜色
     2.border-width：边框宽度
     3.border-style：边框风格
+8.字符转换（text-transform）
+    none :不做任何修改
+    uppercase：全大写
+    lowercase：全小写
+    capitalize：首字母大写
+
