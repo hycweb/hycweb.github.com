@@ -1,0 +1,18 @@
+h1.colors{
+    color: #ff0000;
+}
+h1#colors{
+    color: blue;
+}
+h3,.h33,h4{
+    color: green;
+}
+p strong{
+     color: #ff0000;
+ }
+p b{
+          color: #ff0000;
+}
+p .str{
+    color: gray;
+}
