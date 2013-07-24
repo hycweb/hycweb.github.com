@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript事件与对象</title>
+    </head>
+    <script type="text/javascript">
+        function showmsg(msg){
+            alert(msg);
+        }
+        function showStatus(msg){
+          //window.status=msg;
+            alert(msg);
+        }
+        function onSubmit(){
+            return confirm("确定提交吗?");
+        }
+        function onReset(){
+            return confirm("确定重置吗？");
+        }
+        today = new Date();
+        var hours = today.getHours();
+        var minutes = today.getMinutes();
+        var Seconds = today.getSeconds();
+        document.write('现在是'+hours+'时'+minutes+'分'+Seconds+'秒');
+        if(hours<12){
+            document.write("上午好");
+        }else if(hours==12){
+            document.write('中午好');
+        }else if(hours>12 && hours<17){
+            document.write('下午好');
+        }else{
+            document.write('晚上好！');
+        }
+    </script>
+    <body onload="alert('大风起兮云飞扬！');" onnload="alert('轻轻的我走了！正如我轻轻的来。不带走一片云彩！');">
+        <form action="http://baidu.com" onsubmit="return mySubmit();" onreset="return myReset();">
+            <input type="button" value="确定" onclick="showmsg('坚持就是胜利！')">
+            <input type="button" value="确定2" onclick="alert('坚持就是胜利！');">
+            <input type="button" value="db确定" ondblclick="alert('坚持就是胜利！');"><br>
+            <input type="text" name="user" onfocus="showStatus('用户名由字母和数字组成');" onblur="showStatus('就是这样的！')"><br>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </form>
+        <br>
+        <a onmouseover="showStatus('鼠标移入')" onmouseout="showStatus('鼠标移出')">鼠标移入事件测试</a>
+
+    </body>
+</html>
