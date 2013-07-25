@@ -1,5 +1,7 @@
 .tm{
     background-image:url( ../image/background.jpg);
+    background-position: 50% 10%;
+    background-attachment: fixed;
 }
 body{
     background-color: beige;

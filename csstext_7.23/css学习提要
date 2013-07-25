@@ -45,6 +45,11 @@ css属性
     2.background-color:背景颜色
     3.background-image:背景图片
         background-image:url(bg.jpg);
+    4.background-repeat:图片平铺
+        repeat-x、
+        repeat-y
+    5.background-position：定位图像在背景中的位置。
+    6.background-attachment;防止图片滚动。
 7边框属性
     1.border-color：边框颜色
     2.border-width：边框宽度
@@ -54,4 +59,7 @@ css属性
     uppercase：全大写
     lowercase：全小写
     capitalize：首字母大写
+9.列表
+    1.list-style-type：列表样式
+    2.list-style-image:列表样式图片
 
