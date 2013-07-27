@@ -1,0 +1,25 @@
+*{
+    border:0;
+}
+div{
+    /*border: 10px #ff0000 dashed;*/
+    /*margin: 100px 80px 60px 40px;*/
+    /*padding: 100px;*/
+    /*background-color: gray;*/
+    /*background-image: url(../images/tool.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center bottom ;*/
+}
+a:link{
+    color: gold;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: #ff0000;
+}
+a:active{
+    color: green;
+}
