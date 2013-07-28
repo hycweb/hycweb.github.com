@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.d1{
+    display: inline;
+}
+.s{
+    display:  block;
+}
+.d2{
+    display: none;
+}
+.s1{
+    display: none;
+}

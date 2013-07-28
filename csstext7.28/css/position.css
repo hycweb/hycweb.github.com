@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+#wrap{
+    border: 10px #ff0000 solid;
+    margin: 100px;
+    padding: 50px;
+    background: gray;
+}
+#nav{
+    border: 10px #ff0000 solid;
+    background: green;
+    position: fixed;
+    width: 100%;
+    height: 41px;
+}
+#d1{
+    border: 10px #00ff00 solid;
+    margin: 50px;
+    padding: 50px;
+    /*position:fixed;*/
+}
+#d2{
+    border: 10px #0000ff solid;
+    margin: 50px;
+    padding: 50px;
+}
+#d3{
+    border: 10px gold solid;
+    margin: 50px;
+    padding: 50px;
+}

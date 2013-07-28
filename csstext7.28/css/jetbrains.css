@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 700px;
+    background: gainsboro;
+
+}
+#wrapper_header{
+    width: 984px;
+    margin: auto;
+}
+#brains{
+    height: 90px;
+    margin-left: 20px;
+    background:url("../images/logoJB.svg") no-repeat;
+}
+#right_banner{
+    width: 50px;
+    position: relative;
+    top: 245px;
+    left: 984px;
+    margin-left: 60px;
+}
+#center_banner{
+    background: url(../images/banner_tc8_index.png) no-repeat;
+    width: 984px;
+    height: 700px;
+    margin-left: 60px;
+}
+#left_banner{
+    position: relative;
+    top: 265px;
+}
+#product{
+    width: 100%;
+    height: 500px;
+}
+#news{
+    width: 100%;
+    height:190px ;
+    background: gainsboro;
+}
+#category{
+    width: 100%;
+    height: 572px;
+    padding-top: 21px;
+    padding-bottom: 49px;
+
+}
+#achievement{
+    width: 100%;
+    height: 589px;
+    padding-top: 21px;
+    padding-bottom: 14px;
+}
+#footer{
+    width: 100%;
+    height: 370px;
+}
+
+#header,
+#product,
+#news,
+#category,
+#achievement {
+    border-bottom: #BDBBBC 2px solid;
+}
+/*
+header.。。。。。。。。。。end
+news ..........begin
+*/
+#news_updates{
+    width: 984px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#news_li2 strong,
+#news_li2 a,
+#news_li1 strong,
+#news_li1 a{
+    display: block;
+    line-height: 40px;
+}
+#news_li1{
+    float: left;
+    width: 350px;
+    height: 109px;
+    margin: 0px 100px 0px 50px;
+    /*border: 1px solid;*/
+}
+#news_up{
+    float: left;
+    width: 168px;
+    height: 109px;
+}
+/*news,.......end*/
+
+
+
+
+
+
